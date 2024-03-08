@@ -1,16 +1,18 @@
 # Solid-Barnacles
 
-Leveraging MediaPipe for In-Air Writing
+# Leveraging MediaPipe for In-Air Writing
 
 This project delves into the exciting realm of in-air writing using your webcam and the power of MediaPipe, a cutting-edge framework from Google. By incorporating MediaPipe's hand landmark detection capabilities, you can empower users to interact with your application by tracing characters or gestures in mid-air.
 
 Prerequisites:
 
-MediaPipe Installation: To get started, ensure you have MediaPipe installed. Detailed installation instructions can be found on the MediaPipe website (https://mediapipe.readthedocs.io/en/latest/getting_started/python.html).
+## MediaPipe Installation:
+To get started, ensure you have MediaPipe installed. Detailed installation instructions can be found on the MediaPipe website (https://mediapipe.readthedocs.io/en/latest/getting_started/python.html).
 Additional Dependencies: You might also require libraries like OpenCV for image processing and NumPy for numerical computations. Installation instructions for these libraries are typically readily available online.
 Implementation Steps:
 
-MediaPipe Hand Detection: Import the necessary modules from MediaPipe, such as mp_hands. This will enable you to access the hand landmark detection functionality.
+## MediaPipe Hand Detection: 
+Import the necessary modules from MediaPipe, such as mp_hands. This will enable you to access the hand landmark detection functionality.
 Webcam Access: Initialize a video capture object using OpenCV's cv2.VideoCapture function, specifying the index of your webcam (usually 0 for the primary camera).
 Main Loop: Establish a loop that continuously captures frames from your webcam.
 Frame Processing and Detection: Within the loop, process each captured frame using MediaPipe's hand landmark detection pipeline. This will provide you with the 21 key points representing your hand's pose.
