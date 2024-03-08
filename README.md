@@ -1,4 +1,4 @@
-# Solid-Barnacles
+# **_Solid-Barnacles_**
 
 # Leveraging MediaPipe for In-Air Writing
 
